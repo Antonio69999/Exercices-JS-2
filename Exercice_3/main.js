@@ -1,5 +1,4 @@
-document.getElementById("lastname").addEventListener("keydown", keydown_function);
-
-function keydown_function() {
-    alert("input");
+function exo3() {
+    let saisie = document.getElementById("lastname").value;
+    alert("Vous avez saisi : "+ saisie);
 }
